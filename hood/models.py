@@ -25,15 +25,15 @@ class Profile(models.Model):
         instance.profile.save()
 
 
-class Neighbourhood(models.Model):
-    name = models.CharField(max_length=50)
-    location = models.CharField(max_length=60)
-    admin = models.ForeignKey("Profile", on_delete=models.CASCADE, related_name='hood')
-    neighbourhood_logo = models.ImageField(upload_to='images/')
-    description = models.TextField()
-    healthcenter_number = models.IntegerField(null=True, blank=True)
-    police_number = models.IntegerField(null=True, blank=True)
-    occupants_count = models.IntegerField(null=True, blank=True)
+# class Neighbourhood(models.Model):
+#     name = models.CharField(max_length=50)
+#     location = models.CharField(max_length=60)
+#     admin = models.ForeignKey("Profile", on_delete=models.CASCADE, related_name='hood')
+#     neighbourhood_logo = models.ImageField(upload_to='images/')
+#     description = models.TextField()
+#     healthcenter_number = models.IntegerField(null=True, blank=True)
+#     police_number = models.IntegerField(null=True, blank=True)
+#     occupants_count = models.IntegerField(null=True, blank=True)
 
 
     def __str__(self):

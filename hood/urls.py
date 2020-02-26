@@ -7,7 +7,7 @@ from django.conf.urls import url
 urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^register/', views.signup, name='signup'),
-    # url(r'^account/', include('django.contrib.auth.urls')),
+    url(r'^account/', include('django.contrib.auth.urls')),
     url(r'^profile/<username>/edit/', views.edit_profile, name='edit-profile'),
     url(r'^profile/<username>', views.profile, name='profile'),
     url(r'^all-hoods/',views.neighbourhoods,name='hood'),

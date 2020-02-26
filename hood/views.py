@@ -66,18 +66,18 @@ def create_neighbourhood(request):
     return render(request, 'newhood.html', {'form': form})
 
 
-def join_neighbourhood(request, id):
-    neighbourhood = get_object_or_404(Neighbourhood, id=id)
-    request.user.profile.neighbourhood = neighbourhood
-    request.user.profile.save()
-    return redirect('hood')
+# def join_neighbourhood(request, id):
+#     neighbourhood = get_object_or_404(Neighbourhood, id=id)
+#     request.user.profile.neighbourhood = neighbourhood
+#     request.user.profile.save()
+#     return redirect('hood')
 
 
-def leave_neighbourhood(request, id):
-    hood = get_object_or_404(Neighbourhood, id=id)
-    request.user.profile.neighbourhood = None
-    request.user.profile.save()
-    return redirect('hood')
+# def leave_neighbourhood(request, id):
+#     hood = get_object_or_404(Neighbourhood, id=id)
+#     request.user.profile.neighbourhood = None
+#     request.user.profile.save()
+#     return redirect('hood')
 
 
 def single_neighbourhood(request, hood_id):

@@ -13,10 +13,10 @@ urlpatterns = [
     url(r'^profile/<username>', views.profile, name='profile'),
     url(r'^all-hoods/',views.neighbourhoods,name='hood'),
     url(r'^new-hood/', views.create_neighbourhood, name='new-hood'),
-    url(r'^join_hood/<id>', views.join_neighbourhood, name='join-hood'),
-    url(r'^leave_hood/<id>', views.leave_neighbourhood, name='leave-hood'),
-    url(r'^single_hood/<hood_id>', views.single_neighbourhood, name='single-hood'),
-    url(r'^<hood_id>/new-post', views.create_post, name='post'),
+    url(r'^join_hood/(\d+)', views.join_neighbourhood, name='join-hood'),
+    url(r'^leave_hood/(\d+)', views.leave_neighbourhood, name='leave-hood'),
+    url(r'^single_hood/(\d+)', views.single_neighbourhood, name='single-hood'),
+    url(r'^(\d+)/new-post', views.create_post, name='post'),
     
 ]
 

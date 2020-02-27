@@ -1,8 +1,8 @@
 ## Nyumba-Kumi
-<!-- 
+
 ## Author
 
-Alice Mwihaki -->
+Alice Mwihaki
 
 # Description  
 This project allows users to post their hood, hospitals, police stations and businesses around their neighbourhood

@@ -1,4 +1,8 @@
 ## Nyumba-Kumi
+<!-- 
+## Author
+
+Alice Mwihaki -->
 
 # Description  
 This project allows users to post their hood, hospitals, police stations and businesses around their neighbourhood
@@ -71,7 +75,7 @@ Open the application on your browser `127.0.0.1:8000`.
   
 * Python3.6  
 * Django 1.11  
-* 
+ 
   
   
 ## Known Bugs  

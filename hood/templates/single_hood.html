@@ -2,7 +2,7 @@
 {% load crispy_forms_tags %}
 {% block content %}
 
-<div class="container" >
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <div class="card mb-3">
@@ -39,9 +39,9 @@
         <a class="btn btn-sm btn-info mb-4" href="{% url 'post' hood.id %}">New Post</a>
         {% if hood.admin == user.profile %}
         {% endif %}
-        
+
         <h5 class="D-block mx-auto tt">Available Businesses</h5>
-        
+
         <div class="row">
           {% for busines in business %}
           <div class="col-md-4">
@@ -56,14 +56,15 @@
             </div>
           </div>
           {% endfor %}
-        </div><hr>
+        </div>
+        <hr>
         <h5 class="D-block mx-auto tt">Posts</h5>
         <div class="row">
           {% for post in posts %}
           <div class="col-md-4">
             <div class="card mb-4 hpost">
-              
-                <div class="panel-header">
+
+              <div class="panel-header">
                 <h5 class="card-title text-center">{{post.title}}</h5>
               </div>
               <div class="panel-body">
@@ -110,7 +111,7 @@
 
 
 <style>
-  body{
+  body {
     background-color: rgb(209, 97, 116);
   }
 </style>

@@ -2,3 +2,11 @@ body{
     background-image: url('https://bit.ly/2wJfz9g');
     background-size: cover;
   }
+
+  .body-text {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }

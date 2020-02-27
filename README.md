@@ -54,6 +54,17 @@ python manage.py runserver
  python manage.py test 
 ```
 Open the application on your browser `127.0.0.1:8000`.  
+
+
+## specifications
+
+| BEHAVIOUR	       | INPUT	        | OUTPUT        |
+| -------------- | :-------------: | ----------: |
+|To view page |login|displays the hoods|
+| User wants to view occasions	| User visits the site  |   Displays the occasions in the neighbourhood |
+| User wants to view the neighbourhood events	| They click on the event	| Website events are displayed |
+
+
   
  
 ## Technology used  

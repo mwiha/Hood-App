@@ -15,7 +15,7 @@ This project allows users to post their hood, hospitals, police stations and bus
 * A user can add a business name that is near the neigbourhood 
   
 
-<!--   
+  
 ## Setup and Installation  
 To get the project .......  
   
@@ -55,7 +55,7 @@ python manage.py runserver
 ```
 Open the application on your browser `127.0.0.1:8000`.  
   
- 
+<!--  
 ## Technology used  
   
 * Python3.6  

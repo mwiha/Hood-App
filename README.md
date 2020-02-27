@@ -55,7 +55,7 @@ python manage.py runserver
 ```
 Open the application on your browser `127.0.0.1:8000`.  
   
-<!--  
+ 
 ## Technology used  
   
 * Python3.6  
@@ -71,4 +71,4 @@ Open the application on your browser `127.0.0.1:8000`.
      alicemwihaki99@gmail.com
 
 ## Licence
-Copyright (c) 2019 Alice Mwihaki -->
+Copyright (c) 2019 Alice Mwihaki
